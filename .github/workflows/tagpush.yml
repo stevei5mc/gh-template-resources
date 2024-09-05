@@ -43,6 +43,6 @@ jobs:
     #   with: 
     #     minebbs_token: ${{ secrets.MINEBBS_TOKEN }}
     #     resource_id: "12345"
-    #     upload_file: ./github_artifact/*.*
+    #     upload_file: ./staging/*.*
     #     update_title: ${{ steps.get_info.outputs.VERSION }}
     #     update_version: ${{ steps.get_info.outputs.VERSION }}
