@@ -37,12 +37,3 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         bodyFile: ./docs/changelogs/${{ steps.get_info.outputs.VERSION }}.md
         artifacts: ./staging/*.*
-    #这个暂时没有用
-    # - name: 发布至minebbs
-    #   uses: engsr6982/upload-minebbs@v1.2.0
-    #   with: 
-    #     minebbs_token: ${{ secrets.MINEBBS_TOKEN }}
-    #     resource_id: "12345"
-    #     upload_file: ./staging/*.*
-    #     update_title: ${{ steps.get_info.outputs.VERSION }}
-    #     update_version: ${{ steps.get_info.outputs.VERSION }}
