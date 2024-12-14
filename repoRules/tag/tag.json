@@ -3,7 +3,7 @@
   "name": "tag",
   "target": "tag",
   "source_type": "Repository",
-  "source": "stevei5mc/NewTipsVariables",
+  "source": "",
   "enforcement": "active",
   "conditions": {
     "ref_name": {

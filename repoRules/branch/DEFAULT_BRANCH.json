@@ -1,9 +1,9 @@
 {
   "id": 291594,
-  "name": "DEFAULT BRANCH",
+  "name": "Default branch",
   "target": "branch",
   "source_type": "Repository",
-  "source": "stevei5mc/NewTipsVariables",
+  "source": "",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
